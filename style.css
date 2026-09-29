@@ -182,7 +182,7 @@ code { font-family: var(--vt); font-size: 1.3em; color: var(--green); background
 .gold-frame img { border-color: var(--gold); box-shadow: 0 0 0 4px #1a1200, 12px 12px 0 var(--gold-dark), 0 0 60px rgba(255,210,63,.25); }
 
 /* RANKS */
-.ranks-layout { display: grid; grid-template-columns: 280px 1fr; gap: 40px; align-items: start; }
+.ranks-layout { max-width: 900px; margin: 0 auto; }
 .ranks-shot img { image-rendering: auto; }
 .group-title { font-size: 20px; color: var(--text); margin: 8px 0 14px; }
 .group-title:not(:first-child) { margin-top: 30px; }
